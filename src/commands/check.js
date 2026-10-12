@@ -126,7 +126,7 @@ export function checkProject(projectPath = process.cwd()) {
   const packagePath = path.join(projectPath, "package.json");
   const diagnostics = [];
 
-  console.log("\n🩺 Project Doctor");
+  console.log("\n🩺 Devnix");
   console.log("Checking your project...\n");
 
   // 1. Check package.json
