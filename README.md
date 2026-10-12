@@ -1,8 +1,12 @@
 # 🚀 Devnix
 
-A developer-friendly command-line tool for creating frontend projects and diagnosing common project configuration issues.
+[![npm version](https://img.shields.io/npm/v/devnix)](https://www.npmjs.com/package/devnix)
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](LICENSE)
+[![Node.js](https://img.shields.io/badge/Node.js-20%2B-green)](https://nodejs.org/)
 
-Devnix helps developers get started with new projects and identify configuration problems through clear diagnostic messages and suggested next steps.
+**Devnix** is a developer-friendly command-line tool for creating frontend projects and diagnosing common project configuration issues.
+
+It helps developers get started with new projects, identify configuration problems, and understand potential solutions through clear diagnostic messages and suggested next steps.
 
 ## ✨ Features
 
@@ -27,6 +31,20 @@ Devnix helps developers get started with new projects and identify configuration
 - Node.js 20 or later
 - npm
 
+## 📥 Installation
+
+Install Devnix globally using npm:
+
+```bash
+npm install -g devnix
+```
+
+Verify the installation:
+
+```bash
+devnix --version
+```
+
 ## 🚀 Usage
 
 ### Check a project
@@ -37,7 +55,7 @@ Navigate to your project's root directory and run:
 devnix check
 ```
 
-Devnix reports detected configuration details, warnings, errors, and suggested actions.
+Devnix checks the project configuration and reports detected information, warnings, errors, and suggested next steps.
 
 ### Create a new project
 
@@ -47,7 +65,7 @@ Run:
 devnix init
 ```
 
-Choose a supported framework and enter a project name.
+Choose a supported framework and enter a project name to get started.
 
 ### View available commands
 
@@ -63,7 +81,19 @@ devnix --version
 
 ## 🛠️ Development
 
-Clone the repository and install dependencies:
+Clone the repository:
+
+```bash
+git clone https://github.com/Asmaa-AbdElkhalek209/devnix.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd devnix
+```
+
+Install dependencies:
 
 ```bash
 npm install
@@ -86,7 +116,7 @@ node src/index.js check
 - Devnix diagnoses configuration issues but does not automatically repair them.
 - Configuration checks do not guarantee that all dependencies or application code are valid.
 - Project creation requires an internet connection and the relevant framework's official CLI.
-- Current framework detection and diagnostics focus primarily on frontend project configurations.
+- Framework detection and diagnostics currently focus primarily on frontend project configurations.
 
 ## 🗺️ Roadmap
 
@@ -97,6 +127,11 @@ node src/index.js check
 - Explore optional automated fixes with user confirmation.
 - Improve project health reporting.
 
+## 🔗 Links
+
+- **npm Package:** https://www.npmjs.com/package/devnix
+- **GitHub Repository:** https://github.com/Asmaa-AbdElkhalek209/devnix
+
 ## 📄 License
 
-ISC
+This project is licensed under the [ISC License](LICENSE).
